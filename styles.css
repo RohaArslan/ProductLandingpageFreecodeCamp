@@ -1,0 +1,91 @@
+/* Reset some default styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+#header {
+    background-color: #ffff;
+    color: #3333;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+#header-img {
+    width: 150px;
+    height: 150px;
+}
+
+#nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    color: #3333;
+    margin: 0 15px;
+    text-decoration: none;
+}
+@media (max-width: 768px) {
+  /* CSS rules for screens with a maximum width of 768px */
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Video styles */
+#video {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+/* Section styles */
+section {
+    padding: 40px;
+}
+
+#overview {
+    background-color: #f3f3f3;
+}
+
+#features {
+    background-color: #ddd;
+}
+/* Change text/link color to orange on hover */
+#header a:hover, .nav-link:hover {
+  color: orange;
+}
+
+#buy {
+    background-color: #f3f3f3;
+}
+
+/* Form styles */
+#form {
+    text-align: center;
+}
+
+#email {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#submit {
+    padding: 10px 20px;
+    background-color: #005CBF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
